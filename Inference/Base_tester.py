@@ -1,5 +1,5 @@
 # Simple usage
-from inference_system import SignLanguagePredictor
+from Base_inference import SignLanguagePredictor
 
 # Initialize with your .pth file
 predictor = SignLanguagePredictor(f"Model path to {BaseModel.pth}")
@@ -17,3 +17,4 @@ predictor.visualize_prediction("Single Image Dir")
 # Real-time webcam
 
 #predictor.predict_webcam()
+
