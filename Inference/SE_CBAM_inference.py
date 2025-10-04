@@ -390,7 +390,7 @@ def main():
     print("="*70)
     
     # Path to your trained SE-enhanced model
-    MODEL_PATH = r'C:\Users\mohan\Desktop\SignLanguageInterpreter\BaseModel+SE+CBAM\best_se_cbam_model.pth'
+    MODEL_PATH = r'\best_se_cbam_model.pth'
     
     # Initialize predictor
     try:
@@ -444,4 +444,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
