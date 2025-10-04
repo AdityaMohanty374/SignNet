@@ -37,7 +37,7 @@ This project implements three progressively advanced CNN architectures for sign 
 - ✅ Interactive visualizations
 - ✅ Comprehensive performance analysis tools
 
-## 🏗️ Models
+## 🏗️ Model
 
 ### 1. Base CNN Model
 **Architecture**: 4 convolutional blocks with batch normalization and max pooling
